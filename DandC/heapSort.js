@@ -37,4 +37,4 @@ function swap(a,i,j){
     a[j]=temp;
 }
 
-console.log(heapSort([1,4,7,2,87,23,45,90,12,54,76]))
+console.log(heapSort([1,4,7,2,87,23,45,90,12,54,76]));

@@ -9,15 +9,15 @@ var minmaxDAC = function(a,p,q){
         m = (p+q)/2;
         m=m|0
         firstHalf= minmaxDAC(a,p,m);
-        min1 = firstHalf[0]
-        max1 = firstHalf[1]
+        min1 = firstHalf[0];
+        max1 = firstHalf[1];
         secondHalf = minmaxDAC(a,m+1,q);
-        min2 = secondHalf[0]
-        max2 = secondHalf[1]
-        if(min1>min2) min=min2
-        else min = min1
-        if(max1>max2) max = max1
-        else max = max2
+        min2 = secondHalf[0];
+        max2 = secondHalf[1];
+        if(min1>min2) min=min2;
+        else min = min1;
+        if(max1>max2) max = max1;
+        else max = max2;
         return [min,max]
     }
 }  //T.C = O(n) stack size = logn space -n
