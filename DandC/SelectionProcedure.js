@@ -31,4 +31,16 @@ function selectionProcedure(a,p,q,k){
     }
 }
 
-console.log(selectionProcedure([50,70,31,99,46,27,59,25,17,18,91,120],0,11,4));
+function nRSP(a,p,q,k){
+    while(p<=q){
+        if(p===q) return a[p];
+        else{
+            i = partition(a,p,q);
+            if(i===k) return a[i];
+            if(k<i) q=i-1;
+            else p=i+1;
+        }
+    }
+}
+
+console.log(nRSP([50,70,31,99,46,27,59,25,17,18,91,120],0,11,4));
