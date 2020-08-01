@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f67a32da-30c5-4b81-8f2c-c7bfd3bf02a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DandC/BubbleSort.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DandC/insertionSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/DandC/insertionSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DandC/BubbleSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/DandC/BubbleSort.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,44 +47,44 @@
     <session id="818692613">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.34" value="2" />
-          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.36" value="2" />
           <entry key="project.open.time.37" value="2" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="4" />
-          <entry key="js" value="20" />
+          <entry key="js" value="22" />
           <entry key="json" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="20" />
+          <entry key="JavaScript" value="22" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="7" />
-          <entry key="js" value="10282" />
+          <entry key="js" value="10583" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="10282" />
+          <entry key="JavaScript" value="10583" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
@@ -95,7 +94,29 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DandC/BubbleSort.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DandC/insertionSort.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DandC/LinearandBinarySearch.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -188,14 +209,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.insertionSort.js">
+  <component name="RunManager" selected="Node.js.BubbleSort.js">
+    <configuration name="BubbleSort.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="BubbleSort.js" working-dir="$PROJECT_DIR$/DandC">
+      <method v="2" />
+    </configuration>
     <configuration name="CountingSort.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="CountingSort.js" working-dir="$PROJECT_DIR$/DandC">
       <method v="2" />
     </configuration>
     <configuration name="MergeSort2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="MergeSort2.js" working-dir="$PROJECT_DIR$/DandC">
-      <method v="2" />
-    </configuration>
-    <configuration name="SelectionProcedure.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="SelectionProcedure.js" working-dir="$PROJECT_DIR$/DandC">
       <method v="2" />
     </configuration>
     <configuration name="countinginversions.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="countinginversions.js" working-dir="$PROJECT_DIR$/DandC">
@@ -205,19 +226,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.SelectionProcedure.js" />
       <item itemvalue="Node.js.countinginversions.js" />
       <item itemvalue="Node.js.MergeSort2.js" />
       <item itemvalue="Node.js.CountingSort.js" />
       <item itemvalue="Node.js.insertionSort.js" />
+      <item itemvalue="Node.js.BubbleSort.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.BubbleSort.js" />
         <item itemvalue="Node.js.insertionSort.js" />
         <item itemvalue="Node.js.CountingSort.js" />
         <item itemvalue="Node.js.countinginversions.js" />
         <item itemvalue="Node.js.MergeSort2.js" />
-        <item itemvalue="Node.js.SelectionProcedure.js" />
       </list>
     </recent_temporary>
   </component>
@@ -246,18 +267,19 @@
       <workItem from="1596088867577" duration="1673000" />
       <workItem from="1596095297411" duration="5607000" />
       <workItem from="1596185926387" duration="1213000" />
-      <workItem from="1596216296982" duration="410000" />
+      <workItem from="1596216296982" duration="1093000" />
+      <workItem from="1596290176525" duration="644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83048000" />
+    <option name="totallyTimeSpent" value="84375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -269,7 +291,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32952693" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -338,13 +360,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DandC/report.20200722.194517.6662.0.001.json" />
-    <entry file="file://$PROJECT_DIR$/DandC/LinearandBinarySearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DandC/minmaxDAC.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -406,12 +421,23 @@
     <entry file="file://$PROJECT_DIR$/DandC/insertionSort.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DandC/LinearandBinarySearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DandC/BubbleSort.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

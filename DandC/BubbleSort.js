@@ -1,14 +1,14 @@
 function bubbleSort(a){
-    for(let i=0;i<a.length-1;i++){
-        for(let j=i+1;j<a.length;j++){
-            if(a[i]>a[j]){
-                let temp = a[i];
-                a[i] = a[j];
-                a[j] = temp;
+    for(let i=0;i<a.length;i++){
+        for(let j=0;j<a.length-i-1;j++){
+            if(a[j]>a[j+1]){
+                let temp = a[j];
+                a[j] = a[j+1];
+                a[j+1] = temp;
             }
         }
     }
     return a;
 }
 
-console.log(bubbleSort([10,9,8,7,6,5,4,3,2,1]));
+console.log(bubbleSort([2,1,4,3,6,5,7,8,10,9,45,23,67,98]))
