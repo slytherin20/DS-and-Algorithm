@@ -43,6 +43,10 @@ function infixToPostfix(exp){
              str += stack.pop();
              len--;
          }
+         if(openBrack!==0){
+             console.log("The expression seems to have unbalanced pair of brackets.Please look into it.");
+             return;
+         }
     console.log("Converted Postfix exp:",str);
 
 }
@@ -105,6 +109,7 @@ function forOpenBrack(openBrack){
 }
 
 function forCloseBrack(topPre,arrPre,openBrack){
+    if(openBrack<1) return -1;
     if(arrPre===topPre) {
         stack.pop();
         return --openBrack;
