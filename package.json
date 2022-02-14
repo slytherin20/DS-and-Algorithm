@@ -1,0 +1,21 @@
+{
+  "name": "dsandalgorithms-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node DandC/infixToPostfix.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slytherin20/DS-and-Algorithm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slytherin20/DS-and-Algorithm/issues"
+  },
+  "homepage": "https://github.com/slytherin20/DS-and-Algorithm#readme",
+  "type":"module"
+}
