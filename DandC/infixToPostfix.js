@@ -19,22 +19,23 @@ function checkPrecendence(op){
 function infixToPostfix(exp){
     let i=0;
     let arr=[];
+    //Divide exp into array.
     while(i<exp.length){
-        if(exp[i]==="*" && exp[i+1] && exp[i+1]==="*"){
+        if(exp[i]==="*" && exp[i+1] && exp[i+1]==="*"){  // for ** operator
             arr.push("**");
             i=i+2;
-            
         }
         else {
             arr.push(exp[i]);
         i++;
         }
     }
+    //Convert process.
     i=0;
     while(i<arr.length){
         if(!checkOperator(arr[i]))  str+=arr[i];
         else{
-         openBrack =  compareElements(arr[i],openBrack);
+         openBrack =  compareElements(arr[i],openBrack); //compare arr elemnet with stack top most element.
         }
         i++;
     }
@@ -81,6 +82,7 @@ function compareElements(el,openBrack){
 
 
 function forAddSub(el,topElement,topPre,arrPre){
+    //L->R
     if(topPre===arrPre){
         stack.pop();
         str+= topElement;
@@ -89,6 +91,7 @@ function forAddSub(el,topElement,topPre,arrPre){
 }
 
 function forMulDiv(el,topElement,topPre,arrPre){
+    //R->L
     if(topPre===arrPre){
         str +=el;
     }
@@ -102,7 +105,7 @@ function forMulDiv(el,topElement,topPre,arrPre){
     }
 }
 function forOpenBrack(openBrack){
-
+    if(openBrack<0) return -1;
     stack.push("(");
      ++openBrack; 
      return openBrack;
@@ -133,5 +136,5 @@ function forPow(topElement,topPre,arrPre){
     }
 }
 
-infixToPostfix("(a+(d/f*c)-e**g**k)");
+infixToPostfix("(a+(d/f*c)-e**g**k(b+d)");
 //a+df*c/+eg**k**-
