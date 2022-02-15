@@ -136,5 +136,4 @@ function forPow(topElement,topPre,arrPre){
     }
 }
 
-infixToPostfix("(a+(d/f*c)-e**g**k(b+d)");
-//a+df*c/+eg**k**-
+infixToPostfix("(a+(b/d*c)-e)+f");
