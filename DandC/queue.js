@@ -1,41 +1,31 @@
 class Queue{
     constructor(){
        this.items = [];
-       this.front = -1;
-       this.rear = -1;
     }
 
     enqueue(data){
-        if(this.front===-1) {this.front = 0; this.rear = 0; }
-        else{
-            ++this.rear;
-        }
-        this.items[this.rear] = data; 
+      this.items.push(data);
     }
 
     dequeue(){
-        if(this.front===-1) {
-            console.log("Stack underflow!");  
-            return;      
+       if(this.isEmpty()) return "Queue Underflow!";
+       let el = this.items.shift();
+       return el;
     }
-    else if(this.front<this.rear){
-        let temp = this.items[this.front];
-        ++this.front;
-        return temp;
+    isEmpty(){
+        return this.items.length<1?true:false;
     }
-        let temp = this.items[this.front];
-        ++this.front;
-        this.front = -1;
-        this.rear = -1;
-        return temp;
+    front(){  //same as peek returns top element.
+        if(this.isEmpty()) return "No elements in Queue.";
+        return this.items[0];
     }
 
     printQueue(){
-        let i=this.front;
-        while(i<=this.rear){
-            console.log(this.items[i]);
-            ++i;
-        }
+       let i=0;
+       while(i<this.items.length){
+           console.log(i,". ",this.items[i]);
+           i++;
+       }
     }
 }
 
@@ -48,6 +38,7 @@ queue.printQueue();
 queue.dequeue();
 console.log("After one dequeue");
 queue.printQueue();
+console.log("Front element",queue.front());
 console.log("Dequeued element:",queue.dequeue());
 console.log("Dequeued element:",queue.dequeue());
-queue.dequeue();
+console.log(queue.dequeue());
